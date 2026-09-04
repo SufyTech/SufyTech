@@ -83,27 +83,39 @@ I'm a Junior Software Engineer with hands-on RLHF experience and three independe
 ### 🔎 Groundwork — Full Stack RAG System
 Full-stack RAG application (FastAPI backend, React frontend) with hybrid BM25 + vector search (Reciprocal Rank Fusion) and Cohere cross-encoder reranking — a 1.00 Ragas faithfulness score and 0.71 answer relevancy, with full pipeline observability via Langfuse. Root-caused a production data-persistence bug to free-tier storage limits, migrated vector storage from local ChromaDB to Qdrant Cloud with zero data loss, and moved embeddings to the Hugging Face Inference API — restoring 100% service uptime.
 
+<div align="center">
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white) ![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square) ![Cohere](https://img.shields.io/badge/Cohere-39594C?style=flat-square&logo=cohere&logoColor=white)
 
-[Live Demo](https://sufiyan-khan-ai.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9A7?style=for-the-badge&logo=vercel&logoColor=white)](https://sufiyan-khan-ai.vercel.app)
+
+</div>
 
 <br/>
 
 ### 🤖 AI CodeReview Pro — Multi-Agent PR Review Platform
 Full-stack multi-agent PR review platform (LangGraph pipeline, FastAPI backend, React dashboard) that triages pull requests, generates RAG-grounded review comments, and escalates high-risk changes to human review. Implemented Supabase authentication and a real-time observability dashboard (Recharts) for pipeline monitoring and microservice-style health tracking.
 
+<div align="center">
+
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=00C9A7) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Recharts](https://img.shields.io/badge/Recharts-8884D8?style=flat-square)
 
-[Live Demo](https://sufiyan-khan-ai.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9A7?style=for-the-badge&logo=vercel&logoColor=white)](https://sufiyan-khan-ai.vercel.app)
+
+</div>
 
 <br/>
 
 ### 📄 NotesToReport — Citation-Grounded Notes-to-Report Pipeline
 Open-source MCP developer tool that converts a folder of rough notes into a citation-grounded report, backing every claim with an exact source citation (file + line range) or flagging it as unverified — gated by a faithfulness-score circuit breaker (threshold 0.85). Built and tested the citation-grounding engine, including an adversarial unit test confirming correct rejection of hallucinated claims not present in the source notes; built the MCP connector to SuperDocs.
 
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square) ![Ragas](https://img.shields.io/badge/Ragas-00C9A7?style=flat-square) ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-[Repo](https://github.com/SufyTech)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SufyTech)
+
+</div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%"/>
