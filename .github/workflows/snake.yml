@@ -1,20 +1,28 @@
-name: generate animated contribution snake
+name: Generate Animated Contribution Snake
 
+# Regenerates the contribution snake SVG daily, on manual trigger,
+# and whenever main is updated (so it never sits stale).
 on:
   schedule:
-    - cron: "0 0 * * *"   # once a day
-  workflow_dispatch: {}
+    - cron: "0 0 * * *"   # Runs once a day at 00:00 UTC
+  workflow_dispatch: {}    # Allows manual runs from the Actions tab
   push:
     branches:
       - main
 
+permissions:
+  contents: write   # Required to push the generated SVG to the output branch
+
 jobs:
   build:
+    name: Build and publish snake SVG
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: generate github-contribution-grid-snake.svg
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution grid snake
         uses: Platane/snk@v3
         with:
           github_user_name: SufyTech
@@ -22,7 +30,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: push snake svg to the output branch
+      - name: Publish SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
