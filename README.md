@@ -71,75 +71,46 @@ I'm a **Junior Software Engineer** with hands-on **RLHF** experience and three i
 
 ## 🚀 Featured Projects
 
-<table width="100%">
-<tr>
-<td width="100%">
+<br/>
 
-### 🔎 [Groundwork — Full Stack RAG System](https://groundwork-rag-one.vercel.app)
-Full-stack RAG application (**FastAPI** backend, **React** frontend) with **hybrid BM25 + vector search** (Reciprocal Rank Fusion) and **Cohere cross-encoder reranking**, achieving a **1.00 Ragas faithfulness score** and **0.71 answer relevancy**, with full pipeline observability via **Langfuse**.
-Root-caused a production data-persistence bug to free-tier storage limits — migrated vector storage from local **ChromaDB** to **Qdrant Cloud** with zero data loss, and moved embeddings to the **Hugging Face Inference API**, restoring 100% service uptime.
+### 🔎 Groundwork — Full Stack RAG System
 
-`FastAPI` `React` `Qdrant Cloud` `Cohere Rerank` `Langfuse` `BM25 + Vector Hybrid Search`
+Full-stack RAG application (**FastAPI** backend, **React** frontend) with **hybrid BM25 + vector search** (Reciprocal Rank Fusion) and **Cohere cross-encoder reranking** — a **1.00 Ragas faithfulness score** and **0.71 answer relevancy**, with full pipeline observability via **Langfuse**. Root-caused a production data-persistence bug to free-tier storage limits, migrated vector storage from local ChromaDB to **Qdrant Cloud** with zero data loss, and moved embeddings to the **Hugging Face Inference API** — restoring 100% service uptime.
 
-</td>
-</tr>
-<tr>
-<td width="100%">
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Qdrant](https://img.shields.io/badge/Qdrant%20Cloud-DC244C?style=flat-square&logo=qdrant&logoColor=white)
+![Cohere](https://img.shields.io/badge/Cohere%20Rerank-39594D?style=flat-square&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square&logoColor=white)
 
-### 🤖 [AI CodeReview Pro — Multi-Agent PR Review Platform](https://ai-codereview-pro.vercel.app)
-Full-stack multi-agent PR review platform (**LangGraph** pipeline, **FastAPI** backend, **React** dashboard) that triages pull requests, generates **RAG-grounded review comments**, and escalates high-risk changes to human review.
-Implemented **Supabase authentication** and a real-time observability dashboard (**Recharts**) for pipeline monitoring and microservice-style health tracking.
+[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-00C9A7?style=for-the-badge&logoColor=white)](https://groundwork-rag-one.vercel.app)
 
-`LangGraph` `FastAPI` `React` `Supabase Auth` `Recharts` `Multi-Agent Orchestration`
+<br/>
 
-</td>
-</tr>
-<tr>
-<td width="100%">
+### 🤖 AI CodeReview Pro — Multi-Agent PR Review Platform
 
-### 📄 [NotesToReport — Citation-Grounded Notes-to-Report Pipeline](https://github.com/SufyTech/notes-to-report)
-Open-source **MCP developer tool** that converts a folder of rough notes into a citation-grounded report, backing every claim with an exact source citation (file + line range) or flagging it as unverified — gated by a **faithfulness-score circuit breaker (threshold 0.85)**.
-Built and tested the citation-grounding engine, including an adversarial unit test confirming correct rejection of hallucinated claims not present in the source notes; built the MCP connector to SuperDocs.
+Full-stack multi-agent PR review platform (**LangGraph** pipeline, **FastAPI** backend, **React** dashboard) that triages pull requests, generates **RAG-grounded review comments**, and escalates high-risk changes to human review. Implemented **Supabase authentication** and a real-time observability dashboard (**Recharts**) for pipeline monitoring and microservice-style health tracking.
 
-`MCP` `Python` `Citation Grounding` `Faithfulness Evaluation`
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Supabase](https://img.shields.io/badge/Supabase%20Auth-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-8884D8?style=flat-square&logoColor=white)
 
-</td>
-</tr>
-</table>
+[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-00C9A7?style=for-the-badge&logoColor=white)](https://ai-codereview-pro.vercel.app)
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%"/>
-</div>
+<br/>
 
-## 💼 Professional Experience
+### 📄 NotesToReport — Citation-Grounded Notes-to-Report Pipeline
 
-<table width="100%">
-<tr>
-<th align="left">Role</th>
-<th align="left">Organization</th>
-<th align="left">Duration</th>
-</tr>
-<tr>
-<td>Independent Software Engineer — Applied GenAI Systems</td>
-<td>Self-Directed, Remote</td>
-<td>Jun 2025 – Present</td>
-</tr>
-<tr>
-<td>LLM Post-Training Engineer</td>
-<td>Ethara AI, Gurugram, India (Remote)</td>
-<td>Mar 2026 – May 2026</td>
-</tr>
-<tr>
-<td>Software Engineer Intern</td>
-<td>OctaNet Services Pvt Ltd., Odisha, India (Remote)</td>
-<td>Aug 2024 – Oct 2024</td>
-</tr>
-</table>
+Open-source **MCP developer tool** that converts a folder of rough notes into a citation-grounded report, backing every claim with an exact source citation (file + line range) or flagging it as unverified — gated by a **faithfulness-score circuit breaker (threshold 0.85)**. Built and tested the citation-grounding engine, including an adversarial unit test confirming correct rejection of hallucinated claims not present in the source notes; built the MCP connector to SuperDocs.
 
-- Architected and shipped three production-style full-stack applications end-to-end — frontend, backend, deployment, and observability — spanning RAG retrieval, multi-agent orchestration, and developer tooling.
-- Diagnosed and resolved a live production data-persistence failure under real infrastructure constraints, migrating vector storage with zero data loss and restoring full service uptime.
-- Performed RLHF data collection at scale, evaluating and ranking 90+ model responses daily across diverse instruction types to improve model alignment and helpfulness.
-- Automated recurring regression checks with Python and PowerShell scripts, cutting the team's manual test-cycle time and freeing senior developers from repetitive pre-release checks.
+![MCP](https://img.shields.io/badge/MCP-FF6F00?style=flat-square&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Citation Grounding](https://img.shields.io/badge/Citation%20Grounding-4B8BBE?style=flat-square&logoColor=white)
+![Faithfulness Eval](https://img.shields.io/badge/Faithfulness%20Evaluation-8A2BE2?style=flat-square&logoColor=white)
+
+[![Repo](https://img.shields.io/badge/📦_View_Repo-00C9A7?style=for-the-badge&logoColor=white)](https://github.com/SufyTech/notes-to-report)
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%"/>
@@ -150,7 +121,7 @@ Built and tested the citation-grounding engine, including an adversarial unit te
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=SufyTech&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SufyTech&theme=tokyonight&hide_border=true" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=SufyTech&theme=tokyonight&hide_border=true" width="49%"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SufyTech&layout=compact&theme=tokyonight&hide_border=true" width="50%"/>
 
