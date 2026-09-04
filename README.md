@@ -87,7 +87,7 @@ Full-stack RAG application (FastAPI backend, React frontend) with hybrid BM25 + 
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white) ![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square) ![Cohere](https://img.shields.io/badge/Cohere-39594C?style=flat-square&logo=cohere&logoColor=white)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9A7?style=for-the-badge&logo=vercel&logoColor=white)](https://sufiyan-khan-ai.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9A7?style=for-the-badge&logo=vercel&logoColor=white)](https://groundwork-rag-one.vercel.app/)
 
 </div>
 
@@ -100,7 +100,7 @@ Full-stack multi-agent PR review platform (LangGraph pipeline, FastAPI backend, 
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=00C9A7) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Recharts](https://img.shields.io/badge/Recharts-8884D8?style=flat-square)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9A7?style=for-the-badge&logo=vercel&logoColor=white)](https://sufiyan-khan-ai.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00C9A7?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-codereview-pro.vercel.app/)
 
 </div>
 
@@ -113,7 +113,7 @@ Open-source MCP developer tool that converts a folder of rough notes into a cita
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square) ![Ragas](https://img.shields.io/badge/Ragas-00C9A7?style=flat-square) ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SufyTech)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SufyTech/notes-to-report)
 
 </div>
 
